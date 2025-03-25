@@ -16,4 +16,4 @@ O projeto utiliza os seguintes conceitos:
 - **Função Lambda**: Presente no contador (`criarContadorPacientes`).
 - **List Comprehension**: Implementada via `.map` na geração do menu (`criarMenu`).
 - **Closure**: Usada para manter o estado do contador entre chamadas.
-- **Função de Alta Ordem**: `criarContadorPacientes` retorna uma função como resultado.
+- **Função de Alta Ordem**: `consultarPaciente` recebe `contarPaciente` como argumento e a chama dentro da função.
